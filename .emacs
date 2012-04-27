@@ -27,9 +27,6 @@
 (my-add-subdirs-to-load-path my-emacs-settings-path)
 
 
-;; 设置默认工作目录
-(setq default-directory "~/work/")
-
 ;; user information
 (require 'user-info-settings)
 
